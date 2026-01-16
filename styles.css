@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+html {
+  font-size: 16px; 
+}
+
+.icon {
+    height: 3rem;
+    width: 3rem;
+}
+body {
+    background: #002339;
+    color: #fff;
+}
+
+.container {
+    margin: 12%;
+    width: 90%;
+    max-width: 44rem;
+}
+.display {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 1.2rem;
+    border-radius: .3rem;
+}
+.container h1 {
+    font-weight: 500;
+    font-size: 3rem;
+}
+.container h1 span {
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 7px;
+}
+.display span .icon {
+    cursor: pointer;
+    color: #019f55;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+.display span .icon:hover {
+  transform: scale(1.2);
+  filter: brightness(0.85);
+
+}
+.display input {
+    border: 0;
+    outline: 0;
+    font-size: 1.7rem;
+}
+
+.container button .flash-icon {
+    width: 1.9rem;
+    height: 1.6rem;
+    margin-right: 10px;
+}
+
+.container button{
+    border: 0;
+    outline: 0;
+    background: #019f55;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
